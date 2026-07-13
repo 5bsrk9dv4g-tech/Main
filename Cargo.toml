@@ -1,0 +1,11 @@
+[package]
+name = "iubcjdyodvsc"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+wreq = { version = "6.0.0-rc.29", features = ["gzip", "brotli", "zstd", "deflate", "stream"] }
+wreq-util = "3.0.0-rc.14"
+tokio = { version = "1.52.3", features = ["macros", "rt-multi-thread"] }
+tokio-stream = "0.1.18"
+memchr = "2.8.3"
